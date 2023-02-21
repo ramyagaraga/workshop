@@ -1,0 +1,11 @@
+--- 
+pool: Hayan 
+
+trigger:
+  - main 
+
+jobs: 
+  - job: buildjob
+    displayName: build maven 
+extends: 
+  template: maven_template.yml 
